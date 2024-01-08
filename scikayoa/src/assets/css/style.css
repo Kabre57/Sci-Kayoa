@@ -1,0 +1,5193 @@
+/*=========================================================
+Template Name:Euildint-Construction Buliding HTML5 Template
+Author:  https://themeforest.net/user/website stock
+Description: Description
+Version: 1.0.0
+Text Domain: Euildint
+Tags: architect, building company, construction, construction template, construction theme, constructor, contractor, electrician, handyman, industry, painter, plumber, repair, tiler, worker
+================================================*/
+
+/*TABLE OF CONTENTS*/
+/*=====================
+01. Euildint Header Top Menu Area Css
+02. Euildint Nav Menu Area Css 
+03. Euildint Slider Area Css
+04. Euildint Section Title Css
+05. Euildint Service Area css
+06. Euildint About Area Css
+07. Euildint Counter Area Css
+08. Euildint Testimonial Area Css
+09. Euildint Process Area Css
+10. Euildint Team Area Css
+11. Euildint Faq Area Css
+12. Euildint Call Do Section Css
+13. Euildint Form Box Css
+14. Euildint Blog Area Css
+15. Euildint footer Area Css
+16. Euildint Subscribe Area Css
+17. Euildint Prossess Ber Css
+18. Euildint Scrollup Section
+19. Euildint Breadcumb Area Css
+20. Euildint abouts_areas Css
+21. Euildint Pricing Section Css
+22. Euildint Contact  US Css
+23. Euildint Blog Sidber Widget CSS
+24. Euildint Search Box Css
+25. Euildint Loader Css
+=======================*/
+
+
+
+
+/*==================================================
+ <-- Euildint Header Top Menu Area Css-->
+===================================================*/
+
+.topbar-area {
+    background: #F60;
+    padding: 3px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.topbar-area::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 100%;
+    background: #18191D;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.topbar-discription p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+    display: inline-block;
+    margin: 12px 0 8px;
+}
+
+.topbar-discription a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #F60;
+    display: inline-block;
+}
+
+.topbar-social-icon {
+    text-align: right;
+    margin-right: -26px;
+}
+
+.topbar-social-icon ul {
+    list-style: none;
+}
+
+.topbar-social-icon ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.topbar-social-icon ul li a i {
+    color: #ffff;
+    font-size: 14px;
+}
+
+.topbar-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-68px, 14px);
+}
+
+.topbar-btn a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/*==================================================
+ <-- Euildint Header Menu  Area Css-->
+===================================================*/
+
+.header-area {
+    position: relative;
+    z-index: 1;
+    margin-bottom: -94px;
+}
+
+.header-area::before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 100%;
+    background: #ffffff;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header-munu {
+    text-align: right;
+}
+
+.header-munu ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.header-munu ul li {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.header-munu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #18191D;
+    font-weight: 500;
+    padding: 30px 0;
+    position: relative;
+    transition: .5s;
+}
+
+.header-munu ul li a:hover{
+    color:#F60;
+}
+
+.header-munu ul li a::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 58px;
+    background: #F60;
+    margin: auto;
+    transition: .5s;
+}
+
+.header-munu ul li a:hover::before{
+    width: 100%;
+}
+
+.header-munu ul li a i {
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+.header-social {
+    display: inline-block;
+    margin-left: 37px;
+}
+
+.header-social li {
+    position: relative;
+}
+
+.header-social li::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 43px;
+    background: #DFDFDF;
+    right: -28px;
+    bottom: 28px;
+}
+
+.header-social ul li a::before{
+    display: none;
+}
+
+.header-social ul li a i {
+    font-size: 30px;
+}
+
+.header-social ul li.line::before {
+    display: none;
+}
+
+.header-social ul li a.acitve i {
+    color: #F60;
+}
+
+/* sticky css */
+
+.sticky-nav {
+    left: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    width: 70%;
+    position: fixed !important;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    transition: 0.5s !important;
+    background: #ffff!important;
+    z-index: 9999 !important;
+    animation-name: slideInDown;
+    padding: 0 30px;
+}
+
+/* sub menu area css */
+.header-munu ul .sub-menu {
+    background: #fff;
+    position: absolute;
+    top: 125%;
+    border-radius: 5px;
+    width: 217px;
+    text-align: left;
+    margin: 0;
+    -webkit-box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
+    transition: .5s;
+    visibility: hidden;
+    border-top: 2px solid #F60;
+    opacity: 0;
+    z-index: 11;
+}
+
+.header-munu ul .sub-menu ul li {
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+}
+
+.header-munu ul .sub-menu ul li a {
+    padding: 12px 20px;
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    visibility: inherit !important;
+    color: #202020;
+    margin: 0;
+}
+
+.header-munu ul .sub-menu ul li a:hover {
+    margin-left: 7px !important;
+    color: #F60;
+}
+
+.header-munu ul .sub-menu ul li a::before {
+    top: 0;
+    left: -14px;
+}
+
+.header-munu ul li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 99%;
+}
+  
+
+
+/*==================================================
+ <-- Euildint Slider  Area Css-->
+===================================================*/
+
+.slider-area {
+    background: url(../images/slider/slider-bg.jpg);
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.slider-sub-title h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.slider-main-title h1 {
+    font-size: 60px;
+    color: #FFF;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.slider-discripton p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    margin: 22px 0 36px;
+}
+
+.slider-thumb {
+    margin-top: 172px;
+}
+
+
+/*==================================================
+ <-- Euildint Button Css-->
+===================================================*/
+
+.eulding-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    background: #F60;
+    padding: 14px 28px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.eulding-btn a:hover{
+    color: #F60;
+}
+
+.eulding-btn a::before{
+    position: absolute;
+    content: "";
+    transition-duration: 800ms;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: #fff;
+    content: "";
+    top: 110%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.eulding-btn a:hover::before{
+    top: -40%;
+}
+
+.eulding-btn a i {
+    margin-left: 4px;
+    font-size: 17px;
+}
+
+/* about btn */
+
+.eulding-btn.about {
+    display: inline-block;
+}
+
+.eulding-btn.about a::before {
+    background: #18191D;
+}
+
+/* service btn */
+
+.eulding-btn.service {
+    text-align: center;
+}
+
+.eulding-btn.service a {
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.eulding-btn.service a::before{
+    background: #18191D;
+}
+
+/* blog standard btn */
+
+.eulding-btn.standard a::before {
+    background: #18191D;
+}
+
+/*==================================================
+ <-- Euildint Feature Area Css-->
+===================================================*/
+
+.feature-area {
+    padding: 0 0 123px;
+}
+
+.feature-items {
+    margin-top: -183px;
+}
+
+.feature-single-box {
+    display: inline-block;
+    text-align: center;
+    background: #18191D;
+    padding: 42px 23px 20px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    margin: -2px;
+}
+
+.feature-single-box:hover {
+    padding: 41px 23px 42px;
+}
+
+.feature-single-box::before {
+    position: absolute;
+    content: "";
+    background: #FF6600;
+    left: 0;
+    top: 0;
+    right:0;
+    bottom: 0;
+    -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    transform: perspective(400px) rotateX(90deg) scaleY(0.5);
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: all;
+    z-index: -1;
+}
+
+.feature-single-box:hover::before{
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}
+
+.feature-icon-thumb img {
+    transition: .5s;
+}
+
+.feature-single-box:hover .feature-icon-thumb img{
+    filter: brightness(0)invert(1);
+}
+
+.feature-title{
+    transition: .5s;
+}
+
+.feature-single-box:hover .feature-title {
+    margin: 0 0 20px;
+}
+
+.feature-title h4 a {
+    font-size: 22px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.feature-icon i {
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #000;
+    font-size: 16px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.feature-single-box:hover .feature-icon i{
+    opacity: 1;
+}
+
+/* single box two */
+
+.feature-single-box.active {
+    background: #FF6600;
+    padding: 41px 23px 42px;
+}
+
+.feature-single-box.active:hover:before{
+    display: none;
+}
+
+.feature-icon-thumb.two img{
+    filter: brightness(0)invert(1);
+}
+
+.feature-title.two {
+    margin: 0 0 20px;
+}
+
+.feature-icon.two i {
+    opacity: 1;
+}
+
+
+/*==================================================
+ <-- Euildint Section Title Css-->
+===================================================*/
+
+.section-shape {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.section-sub-title {
+    display: inline-block;
+}
+
+.section-sub-title h4 {
+    font-size: 22px;
+    color: #F60;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.section-main-title {
+    margin-bottom: 62px;
+}
+
+.section-main-title h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+/* about section title */
+
+.section-main-title.about {
+    margin: 0;
+}
+
+/* contact section title */
+
+.section-main-title.contact{
+    margin: 0;
+}
+
+.section-main-title.contact h2 {
+    color: #ffff;
+}
+
+/* pricing section title */
+
+.section-main-title.pricing {
+    margin: 31px 0 77px;
+}
+
+.section-main-title.pricing h2 {
+    line-height: 0;
+}
+
+/* blog section title */
+
+.section-main-title.blog {
+    margin-bottom: 53px;
+}
+
+/* faq section title */
+
+.section-sub-title.faq h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.section-main-title.faq {
+    margin-bottom: 33px;
+}
+
+/* work process section title */
+
+.section-main-title.work {
+    margin-bottom: 96px;
+}
+
+/*==================================================
+ <-- Euildint About Area Css-->
+===================================================*/
+
+.about-area {
+    padding: 0 0 194px;
+}
+
+.about-thumb {
+    position: relative;
+}
+
+.about-shape {
+    position: absolute;
+    bottom: -26px;
+    right: 0;
+}
+
+.about-discribtion p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 38px 0 0px;
+}
+
+/* process bar css */
+
+.about-area .process-ber-plugin {
+    margin-bottom: 44px;
+}
+
+.about-area span.process-bar {
+    font-size: 16px;
+    color: #747474;
+    font-weight: 400;
+    position: relative;
+}
+
+.about-area .barfiller {
+    width: 469px;
+    height: 5px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 11px;
+    border-radius: 7px;
+    background-color: #DCE6FF;
+}
+
+.about-area .barfiller .tipWrap {
+    display: none;
+}
+
+.about-area .barfiller .tip {
+    font-size: 16px;
+    color: #F60;
+    font-weight: 500;
+    top: -37px;
+    padding: 1px 6px;
+    left: 0px;
+    position: absolute;
+}
+
+.about-area .barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    z-index: 1;
+}
+
+.stat-bar:nth-of-type(1) .stat-bar-rating {
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+
+.about-area span.fill {
+    background: #F60!important;
+    border-radius: 7px;
+}
+
+/* about single box css */
+
+.about-single-box {
+    display: inline-block;
+    margin-bottom: 23px;
+}
+
+.about-icon {
+    float: left;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+.about-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #18191D;
+    margin-bottom: 11px;
+}
+
+
+/*==================================================
+ <-- Euildint Contact Area Css-->
+===================================================*/
+
+.contact-area {
+    background: url(../images/resource/contact-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contact-discription p {
+    color: var(--neutral-30, #EDEDED);
+    font-size: 16px;
+    font-weight: 400;
+    width: 77%;
+    margin: 33px 0 39px;
+}
+
+.contact-thumb {
+    margin-top: -100px;
+    position: relative;
+}
+
+.contact-shape {
+    position: absolute;
+    bottom: 50%;
+    left: -50px;
+}
+
+
+/*==================================================
+ <-- Euildint Service Area Css-->
+===================================================*/
+
+.service-area {
+    padding: 111px 0 114px;
+}
+
+.service-single-box {
+    background: #FFF;
+    box-shadow: 0px 0px 45px 5px rgba(0, 0, 0, 0.10);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.service-single-box::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    background: url(../images/resource/service-hover.png);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-single-box:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.service-thumb {
+    position: relative;
+    transition: .5s;
+}
+
+.service-single-box:hover .service-thumb{
+    opacity: 0;
+}
+
+.service-content {
+    position: absolute;
+    left: 40px;
+    bottom: 100px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.service-single-box:hover .service-content{
+    opacity: 1;
+}
+
+.service-text h4 a {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 18px 0 10px;
+    transition: .5s;
+}
+
+.service-text h4 a:hover{
+    color: #F60;
+}
+
+.service-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.service-text a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.service-text a:hover {
+    color: #F60;
+}
+
+.service-text a i {
+    color: #F60;
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.service-title {
+    position: absolute;
+    right: -62%;
+    transform: rotate(-90deg);
+    top: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+.service-single-box:hover .service-title{
+    opacity: 0;
+}
+
+.service-title h4 {
+    font-size: 24px;
+    color: #F60;
+    font-weight: 500;
+}
+
+
+/*==================================================
+ <-- Euildint Pricing Area Css-->
+===================================================*/
+
+.pricing-area {
+    padding: 112px 0 110px;
+    background: url(../images/resource/pricing-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pricing-single-box {
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+    padding: 50px 70px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-single-box::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 70px;
+    background: #18191D;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.pricing-single-box::after {
+    position: absolute;
+    content: "";
+    height: 70px;
+    background:#FF6600;
+    width: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.pricing-single-box:hover::after{
+    width: 100%;
+}
+
+
+.pricing-title h3 {
+    color: #18191D;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.pricing-rate {
+    margin-bottom: 33px;
+}
+
+.pricing-rate h3 {
+    color: #18191D;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.pricing-single-box:hover .pricing-rate h3{
+    color: #FF6600;
+}
+
+.pricing-rate h3 span {
+    color: #747474;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pricing-list {
+    margin-bottom: 57px;
+}
+
+.pricing-list span {
+    display: block;
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pricing-list span i {
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    background: #747474;
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.pricing-list span.active i {
+    background: #FF6600;
+}
+
+.pircing-btn a {
+    display: inline-block;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 22px 58px 22px;
+}
+
+
+/*==================================================
+ <-- Euildint Faq Area Css-->
+===================================================*/
+
+.faq-area {
+    padding: 0 0 94px;
+}
+
+/* accrodion css */
+
+.accordion {
+    margin-top: 16px;
+}
+
+.accordion li {
+    list-style: none;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 27px;
+    border-radius: 3px;
+}
+
+.accordion li a {
+    display: block;
+    cursor: pointer;
+    background: #F2F3F7;
+    color: #18191D;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 19px 35px 19px;
+    text-decoration: none;
+    margin-bottom: 11px;
+}
+
+.accordion a.active {
+    background: #F2F3F7;
+    color: #18191D;
+}
+
+.accordion li a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: #18191D;
+    text-decoration: none;
+}
+
+.accordion li p {
+    display: none;
+    font-size: 16px;
+    border: 1px solid #E2E1E6;
+    line-height: 26px;
+    color: #434141;
+    padding: 20px 38px 24px;
+    margin: 0;
+    width: 100%;
+}
+
+.accordion li p span {
+    margin-bottom: 13px;
+    color: #F60;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.accordion a:before {
+    width: 2px;
+    height: 16px;
+    background: #666666;
+    position: absolute;
+    right: 37px;
+    content: " ";
+    top: 21px;
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+}
+
+.accordion a:after {
+    width: 16px;
+    height: 2px;
+    background: #666666;
+    position: absolute;
+    right: 30px;
+    content: " ";
+    top: 28px;
+    transition: all 0.2s ease-in-out;
+}
+
+.accordion a.active:after {
+    transform: rotate(0deg);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background: #666666;
+}
+
+.accordion a.active:before {
+    display: none;
+}
+
+
+/*==================================================
+ <-- Euildint Brand Area Css-->
+===================================================*/
+
+.brand-area {
+    background: #FF6600;
+    padding: 75px 0 75px;
+}
+
+
+/*==================================================
+ <-- Euildint Project Area Css-->
+===================================================*/
+
+.project-area {
+    padding: 110px 0 134px;
+}
+
+.project-single-box {
+    margin-bottom: 112px;
+}
+
+.project-single-box.three {
+    margin-top: -45px;
+}
+
+.project-thumb {
+    position: relative;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 464px;
+    height: 121px;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    padding: 0 37px 0;
+    position: absolute;
+    bottom: -60px;
+}
+
+.project-text h4 a {
+    color: #1B1A1A;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: .5s;
+}
+
+.project-content:hover .project-text h4 a{
+    color: #FD5523;
+}
+
+.project-text span {
+    color: #FD5523;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project-icon a i {
+    background: #1B1A1A;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.project-icon a i::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FD5523;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.project-icon a i:hover::after {
+    width: 100%;
+}
+
+
+/*==================================================
+ <-- Euildint Tetimonial Area Css-->
+===================================================*/
+
+.testimonial-area {
+    padding: 113px 0 92px;
+    background: url(../images/testimonial/testi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testi-single-box {
+    border-radius: 3px;
+    background: #FFF;
+    position: relative;
+    padding: 15px 27px 17px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.10);
+}
+
+.testi-single-box::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background: #BC081E;
+    left: 0;
+    top: 0;
+    transition: .5s;
+}
+
+.testi-single-box:hover::before{
+    width: 100%;
+}
+
+.testi-single-box::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0;
+    background: #BC081E;
+    right: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+.testi-single-box:hover::after{
+    width: 100%;   
+}
+
+.testi-items-box {
+    position: relative;
+}
+
+.testi-items-box::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 0%;
+    background: #BC081E;
+    left: -27px;
+    bottom: -32px;
+    transition: .5s;
+}
+
+.testi-single-box:hover .testi-items-box::before{
+    height: 136%;
+    right: 0;
+}
+
+.testi-single-box.two:hover .testi-items-box::before{
+    height: 137%;
+    right: 0;
+}
+
+.testi-items-box::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 0;
+    background: #BC081E;
+    right: -27px;
+    top: -25px;
+    transition: .5s;
+}
+
+.testi-single-box:hover .testi-items-box::after{
+    height: 136%;
+}
+
+.testi-thumb {
+    float: left;
+    margin-right: 14px;
+    margin-top: -5px;
+}
+
+.testi-title {
+    margin-bottom: 27px;
+}
+
+.testi-title h4 {
+    color: #18191D;
+    font-size: 22px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.testi-title span {
+    color: #747474;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.testi-discription p {
+    color: #747474;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.testi-icon-thumb {
+    position: absolute;
+    top: 4px;
+    right: 0px;
+}
+
+
+/* owl carousel css */
+
+.owl-nav {
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.owl-prev i {
+    width: 50px;
+    height: 50px;
+    background: #18191D;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-prev i::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FD5523;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.owl-prev i:hover::after{
+    width: 100%;
+}
+
+.owl-next i {
+    width: 50px;
+    height: 50px;
+    background: #18191D;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.owl-next i::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FD5523;
+    border-radius: 100%;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.owl-next i:hover::after{
+    width: 100%;
+}
+
+
+/*==================================================
+ <-- Euildint Blog Area Css-->
+===================================================*/
+
+.blog-area {
+    padding: 110px 0 123px;
+}
+
+.blog-single-box {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px #E3E3E2;
+    padding: 26px 30px 48px;
+}
+
+.blog-title h4 a {
+    color: #010212;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog-single-box:hover .blog-title h4 a{
+    color: #FF6600;
+}
+
+.blog-meta {
+    margin-bottom: 20px;
+}
+
+.blog-meta span {
+    color: #747474;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.blog-meta span i {
+    margin-right: 10px;
+    font-size: 17px;
+    color: #FF6600;
+}
+
+.blog-discription p {
+    color: #747474;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    border-bottom: 1px solid #DDD;
+    padding: 0px 0 30px;
+    margin-bottom: 30px;
+}
+
+.blog-bottom-shape {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.blog-bottom-title {
+    display: inline-block;
+    margin-right: 130px;
+}
+
+.blog-bottom-title h4 {
+    color: #010212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.blog-btn {
+    display: inline-block;
+}
+
+.blog-btn a {
+    color: #010212;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog-single-box:hover .blog-btn a{
+    color: #FF6600;
+}
+
+.blog-btn a i {
+    color: #000000;
+}
+
+
+/*==================================================
+ <-- Euildint Footer Area Css-->
+===================================================*/
+
+.footer-area {
+    background: url(../images/footer/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 109px 0 0px;
+    position: relative;
+}
+
+.footer-area::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    bottom: 70px;
+}
+
+.footer-wiget-text p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 29px 0 38px;
+}
+
+.footer-wiget-social ul {
+    list-style: none;
+}
+
+.footer-wiget-social ul li {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.footer-wiget-social ul li a i {
+    color: #FF6600;
+    font-size: 20px;
+    background: #FFF;
+    transition: .5s;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.footer-wiget-social ul li a:hover i{
+    color: #fff;
+}
+
+.footer-wiget-social ul li a i::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FD5523;
+    border-radius:2px;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.footer-wiget-social ul li a i:hover::after{
+    width: 100%;
+}
+
+
+.footer-wiget-title h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 34px;
+    font-weight: 600;
+    padding: 0 0 18px;
+    transition: .5s;
+}
+
+.footer-wiget-menu ul {
+    list-style: none;
+}
+
+.footer-wiget-menu ul li {
+    list-style: none;
+    margin-top: 6px;
+}
+
+.footer-wiget-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 36px;
+    transition: .5s;
+    margin: 0;
+}
+
+.footer-wiget-menu ul li a:hover {
+    color: #FF6600;
+    margin-left: 10px;
+}
+
+.footer-recent-thumb {
+    margin-bottom: 12px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.footer-recent-thumb img{
+    transition: .5s;
+    width: 100%;
+}
+
+.footer-recent-thumb img:hover{
+    transform: scale(1.1);
+}
+
+.copyright-text p {
+    opacity: 0.800;
+    font-size: 18px;
+    line-height: 27px;
+    color: #e2e2e2;
+    font-weight: 400;
+}
+
+.copyright-text p a {
+    color: #e63a27;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.footer-condition {
+    text-align: right;
+}
+
+.footer-condition ul {
+    list-style: none;
+}
+
+.footer-condition ul li {
+    display: inline-block;
+}
+
+.footer-condition ul li a {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: .5s;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer-condition ul li a:hover{
+    color:#e63a27;
+}
+
+
+/*===========================================================================================
+            /*===============================================================
+                            <-- Euildint Home Page Two Css-->
+            =================================================================*/
+/*===========================================================================================
+
+
+/*==================================================
+ <-- Euildint Topbar Style two  Area Css-->
+===================================================*/
+
+.topbar-area.style-two {
+    background: var(--black, #18191D);
+    padding: 10px 0;
+}
+
+.topbar-area.style-two::before {
+    display: none;
+}
+
+.topbar-adress ul {
+    list-style: none;
+}
+
+.topbar-adress ul li {
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.topbar-adress ul li a {
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.topbar-adress ul li a::before {
+    position: absolute;
+    content: "/";
+    left: -18px;
+    color: #fff;
+}
+
+.topbar-adress ul li.line a::before {
+    display: none;
+}
+
+.topbar-menu {
+    text-align: right;
+}
+
+.topbar-menu ul li {
+    display: inline-block;
+    margin-left: 33px;
+}
+
+.topbar-menu ul li a {
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.topbar-menu ul li a::before {
+    position: absolute;
+    content: "/";
+    left: -20px;
+    color: #fff;
+}
+
+.topbar-menu ul li.line a::before {
+    display: none;
+}
+
+
+/*==================================================
+ <-- Euildint Header Style two  Area Css-->
+===================================================*/
+
+.header-area.style-two {
+    margin-bottom: 0px;
+    background: #F60;
+    z-index: 99;
+}
+
+.header-area.style-two::before{
+    display: none;
+}
+
+.header-munu.style-two ul li {
+    margin-left: 55px;
+}
+
+.header-munu.style-two ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 35px 0;
+}
+
+.header-munu.style-two ul li a:before{
+    background: #fff;
+}
+
+.header-munu.style-two ul li a i {
+    font-size: 18px;
+    margin-left: 0;
+}
+
+.header-social.style-two {
+    margin-left: 4px;
+}
+
+.header-social ul li.upper::before {
+    display: none;
+}
+
+.header-social ul li.upper a i{
+    color: #fff;
+    font-size: 24px;
+}
+
+.header-call-section {
+    display: inline-flex;
+    margin-left: 34px;
+    align-items: center;
+}
+
+.header-call-section {
+    display: inline-flex;
+    margin-left: 38px;
+    align-items: center;
+}
+
+.header-call-icon i {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 13px;
+}
+
+.header-call-title a {
+    display: block;
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.header-call-title span {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+/* header style two sticky nav */
+.sticky-menu {
+    left: 0;
+    margin: auto;
+    top: 0;
+    right: 0;
+    width:100%;
+    position: fixed !important;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    -webkit-animation: 300ms running fadeInDown;
+    animation: 500ms running fadeInUp;
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    transition: 0.5s !important;
+    background: #F60!important;
+    z-index: 9999 !important;
+    animation-name: slideInDown;
+    padding: 0 30px;
+}
+
+
+/*==================================================
+ <-- Euildint Slider Style two  Area Css-->
+===================================================*/
+
+/* Banner Slider */
+.banner-section{
+	position: relative;
+}
+
+.banner-carousel .slide-item {
+    position: relative;
+    overflow: hidden;
+    min-height: 850px;
+}
+
+.banner-carousel .slide-item .image-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 6000ms linear;
+    -moz-transition: all 6000ms linear;
+    -ms-transition: all 6000ms linear;
+    -o-transition: all 6000ms linear;
+    transition: all 6000ms linear;
+}
+
+.banner-carousel .active .slide-item .image-layer {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+
+.slider-content.style-two {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+}
+
+.slider-social-menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -36%;
+}
+
+.slider-social-menu ul li {
+    list-style: none;
+    display: block;
+    margin: 15px 0 0px;
+}
+
+.slider-social-menu ul li a i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    color: #ffff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.slider-social-menu ul li a:hover i{
+    border: 1px solid #F60;
+}
+
+.slider-social-menu ul li a i::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #F60;
+    margin:auto;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.slider-social-menu ul li a i:hover::after{
+    transform: scale(1.1);
+}
+
+
+/*==================================================
+ <-- Euildint Feature Style two  Area Css-->
+===================================================*/
+
+.feature-area.style-two {
+    padding: 0px 0 122px;
+}
+
+.feature-items-box {
+    padding: 63px 50px 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-items-box::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    background: #F5F7FA;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.feature-items-box:hover::before{
+    width: 100%;
+    left: 0;
+}
+
+.feature-items-box.two{
+    background: #F5F7FA;
+}
+
+.feature-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-numbar h5 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 102, 0, 0.3);
+    text-align: center;
+    border-radius: 50%;
+    color: #F60;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+.feature-items-box:hover .feature-numbar h5{
+    background: #fff;
+}
+
+.feature-text h4 a {
+    color: #18191D;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    margin: 27px 0 30px;
+}
+
+.feature-text a {
+    color: #8D8D8D;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.feature-items-box:hover .feature-text a{
+    color: #F60;
+}
+
+.feature-text a i {
+    color: #F60;
+    margin-left: 3px;
+}
+
+
+/*==================================================
+ <-- Euildint About Style two  Area Css-->
+===================================================*/
+
+.about-area.style-two {
+    padding: 0 0 112px;
+}
+
+/* about counter */
+
+.about-counter {
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    height: 250px;
+    background: #F60;
+    padding: 60px 41px 0;
+}
+
+.about-numbar h4 {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 45px;
+    display: inline-block;
+}
+
+.about-numbar span {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.about-counter-text h5 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.about-bottom {
+    display: flex;
+}
+
+.about-signiture {
+    margin-left: 39px;
+    margin-top: -7px;
+}
+
+
+/*==================================================
+ <-- Euildint History  Area Css-->
+===================================================*/
+
+.heistory-area {
+    position: relative;
+    margin-bottom: -328px;
+}
+
+.row.history-bg {
+    background: #FFF;
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.10);
+    padding: 78px 40px 80px;
+}
+
+.history-single-box {
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    padding: 37px 39px 51px;
+}
+
+.history-content h4 a {
+    color: #18191D;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.history-content p {
+    color: #747474;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 27px 0 37px;
+}
+
+.history-content a {
+    color: #8D8D8D;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.history-single-box:hover .history-content a{
+    color: #F60;
+}
+
+/* history items box css */
+
+.history-items-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.history-items-thumb img{
+    transition: .5s;
+}
+
+.history-items-box:hover .history-items-thumb img{
+    transform: scale(1.1);
+}
+
+.history-items-content {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background: #000;
+    padding: 11px 32px 21px;
+}
+
+.history-text h4 a {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.history-items-box:hover .history-text h4 a{
+    color: #F60;
+}
+
+.history-icon a i {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* counter css */
+
+.counter-area {
+    background: url(../images/resource/counter-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 65px 51px 65px;
+}
+
+.counter-numbar h4 {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.counter-numbar span{
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.counter-content h5 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+
+/*==================================================
+ <-- Euildint Call Do  Area Css-->
+===================================================*/
+
+.call-do-action-area {
+    padding: 120px 0 120px;
+    background: url(../images/resource/call-do-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:1003px;
+    background-position: center center;
+}
+
+.single-video {
+    position: relative;
+    top: 38%;
+    transform: translateY(100%);
+}
+
+.video-icon a {
+    height: 120px;
+    width: 120px;
+    background: #F60;
+    text-align: center;
+    display: inline-block;
+    border: 10px solid #fff;
+    line-height: 110px;
+    border-radius: 100%;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+    -webkit-transition: .5s;
+}
+
+.video-icon a i {
+    color: #ffffff;
+    font-size: 76px;
+}
+
+.call-do-title {
+    margin: 40px 0 0;
+}
+
+.call-do-title h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+
+/*==================================================
+ <-- Euildint Service Style Two  Area Css-->
+===================================================*/
+
+.service-items-box {
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    padding: 29px 0px 40px 30px;
+    display: table-caption;
+}
+
+.service-items-content h4 a {
+    color: #18191D;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.service-items-box:hover .service-items-content h4 a{
+    color: #F60;
+}
+
+.service-items-content p {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 12px 0 34px;
+}
+
+.service-items-thumb {
+    position: relative;
+    left: 40px;
+}
+
+.service-items-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #18191D;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    left: -36px;
+    transition: .5s;
+}
+
+.service-items-box:hover .service-items-icon{
+    background: #F60;
+}
+
+.service-items-icon img{
+    transition: .5s;
+}
+
+.service-items-box:hover .service-items-icon img{
+    filter: brightness(0)invert(1);
+}
+
+
+/*==================================================
+ <-- Euildint Team  Area Css-->
+===================================================*/
+
+.team-area {
+    padding: 110px 0 300px;
+}
+
+.team-thumb {
+    position: relative;
+}
+
+.team-thumb img {
+    width: 100%;
+}
+
+.team-icon {
+    position: absolute;
+    right: 20px;
+    transition: .5s;
+    bottom: -50px;
+    opacity: 0;
+}
+
+.team-items-box:hover .team-icon {
+    bottom: 30px;
+    opacity: 1;
+}
+
+.team-icon ul {
+    list-style: none;
+    background: #F60;
+    padding: 3px 12px 11px;
+}
+
+.team-icon ul li {
+    margin-top: 10px;
+    text-align: center;
+    line-height: 32px;
+    color: #e63a27;
+}
+
+ .team-icon ul li a i {
+    font: 17px;
+    color: #fff;
+}
+
+.team-main-icon {
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    z-index: 999;
+}
+
+.team-main-icon a {
+    height: 40px;
+    width: 40px;
+    background: #18191D;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.team-main-icon a::before{
+     position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F60;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+}
+
+.team-items-box:hover .team-main-icon a::before{
+    transform: scale(1);
+}
+
+.team-main-icon a i{
+    transition: .5s;
+}
+
+.team-items-box:hover .team-main-icon a i{
+    color: #fff;
+}
+
+.team-content {
+    border-radius: 0px 0px 3px 3px;
+    background: #FFF;
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    width: 100%;
+    padding: 19px 20px 27px;
+}
+
+.team-content h4 a {
+    text-decoration: none;
+    color: #18191D;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    transition: .5s;
+}
+
+.team-items-box:hover .team-content h4 a{
+    color: #F60;
+}
+
+.team-content span {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+/*==================================================
+ <-- Euildint Blog  Area Style Two Css-->
+===================================================*/
+
+.blog-single-box.style-two {
+    background: inherit;
+    padding: 0;
+}
+
+.blog-thumb {
+    overflow: hidden;
+}
+
+.blog-thumb img{
+    transition: .5s;
+}
+
+.blog-single-box.style-two:hover .blog-thumb img{
+    transform: scale(1.1);
+}
+
+.blog-content.style-two {
+    padding: 0px 31px 24px;
+}
+
+.blog-meta.style-two {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    width: 359px;
+    height: 53px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -30px;
+}
+
+.blog-meta-date {
+    width: 60px;
+    height: 53px;
+    border-radius: 3px 0px 0px 3px;
+    background: #18191D;
+    line-height: 0px;
+    margin-right: 26px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-meta-date::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FD5523;
+    border-radius: 3px 0px 0px 3px;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.blog-single-box.style-two:hover .blog-meta-date::before{
+    width: 100%;
+}
+
+.blog-meta-date h5 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.blog-meta-date span {
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.blog-meta-info span i {
+    color: #000;
+    transition: .5s;
+}
+
+.blog-single-box.style-two:hover .blog-meta-info span i{
+    color: #F60;
+}
+
+.blog-title.style-two {
+    margin-top: -8px;
+}
+
+.blog-title.style-two h4 a {
+    font-size: 22px;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.50);
+    padding: 0px 0 17px;
+    margin-bottom: 20px;
+}
+
+.blog-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-btn.style-two a {
+    font-size: 18px;
+}
+
+.blog-icon a i{
+    font-size: 17px;
+    transition: .5s;
+}
+
+.blog-single-box.style-two:hover .blog-icon a i{
+    color: #F60;
+}
+
+
+
+
+/*===========================================================================================
+            /*===============================================================
+                            <-- Euildint Home Page Three Css-->
+            =================================================================*/
+/*===========================================================================================
+
+
+/*==================================================
+ <-- Euildint Top Bar Style Three Css-->
+===================================================*/
+
+.topbar-area.style-three {
+    padding: 10px 0;
+}
+
+.topbar-area.style-three::before {
+    display: none;
+}
+
+/*==================================================
+ <-- Euildint Header Style Three Css-->
+===================================================*/
+
+.header-area.style-two.three {
+    background: none;
+    position: relative;
+    z-index: 999;
+    margin: -1px;
+}
+
+/*==================================================
+ <-- Euildint Banner Style Three Css-->
+===================================================*/
+
+section.banner-section.style-three {
+    margin-top: -98px;
+}
+
+.slider-content.style-two.three {
+    left: 130px;
+    top: 54%;
+}
+
+/*==================================================
+ <-- Euildint About Style Three Css-->
+===================================================*/
+
+.about-area.style-three {
+    padding: 120px 0 194px;
+}
+
+.about-list {
+    margin-bottom: 38px;
+}
+
+.about-list ul li {
+    list-style: none;
+    display: block;
+    margin-bottom: 8px;
+    color: #18191D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.about-list ul li:hover{
+    color: #F60;
+}
+
+.about-list ul li i {
+    font-size: 20px;
+    margin-right: 9px;
+    color: #F60;
+}
+
+
+/*==================================================
+ <-- Euildint Service Style Three  Area Css-->
+===================================================*/
+
+.service-items-box-two {
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(139, 139, 139, 0.15);
+    padding: 22px 16px 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.service-items-box-two::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #F60;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-items-box-two:hover::before{
+    width: 100%;
+}
+
+.service-icon-thumb {
+    float: left;
+    margin-right: 20px;
+    margin-top: 6px;
+    background: var(--black, #18191D);
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.service-icon-thumb::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background:#F60;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 5px;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-items-box-two:hover .service-icon-thumb::before{
+    transform: scale(1.1);
+}
+
+.service-icon-thumb img{
+    transition: .5s;
+}
+
+.service-items-box-two:hover .service-icon-thumb img{
+    filter: brightness(0)invert(1);
+}
+
+.service-items-title h4 a {
+    color: var(--black, #18191D);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.service-items-content-two p {
+    color: var(--secondery, #666);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 26px 0 22px;
+}
+
+.service-items-thumb-two {
+    position: relative;
+}
+
+.service-items-icon-two {
+    position: absolute;
+    top: -20px;
+    right: 16px;
+}
+
+.service-items-icon-two i {
+    height: 40px;
+    width: 40px;
+    background: #F60;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.service-items-box-two:hover .service-items-icon-two i{
+    transform: rotate(0);
+}
+
+.service-items-icon-two i::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--black, #18191D);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+}
+
+.service-items-box-two:hover .service-items-icon-two i::after{
+    transform: scale(1.1);
+}
+
+.service-disctription {
+    text-align: right;
+}
+
+.service-disctription span {
+    color: #18191D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.service-disctription span a {
+    color: #F60;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+
+/*==================================================
+ <-- Euildint Faq Style Two  Area Css-->
+===================================================*/
+
+.faq-area.style-two {
+    background: url(../images/resource/faq-bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.faq-content {
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(188, 188, 188, 0.25);
+    padding: 58px 58px 38px;
+}
+
+.faq-discripition {
+    margin-bottom: 52px;
+}
+
+.accordion li.faq {
+    margin-bottom: 0;
+}
+
+.accordion li p.faq {
+    margin: 0px 0 10px;
+}
+
+/* video icon */
+
+.single-video.style-two {
+    top: 0;
+    transform: translateY(0);
+}
+
+.video-icon.style-two a {
+    width: 136px;
+    height: 136px;
+    line-height: 136px;
+}
+
+.video-icon.style-two a {
+    width: 136px;
+    height: 136px;
+    line-height: 145px;
+    border: 1px solid #fff;
+}
+
+/* faq single box */
+
+.faq-single-box {
+    background: url(../images/resource/faq-thumb.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 73px 70px 60px;
+    position: relative;
+    top: 186px;
+    left: -24px;
+}
+
+.faq-item-content {
+    text-align: left;
+}
+
+.faq-icon-thumb {
+    background: #F60;
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.faq-icon-thumb::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #18191D;
+    margin: auto;
+    z-index: -1;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.faq-single-box:hover .faq-icon-thumb::before{
+    width: 100%;
+}
+
+.faq-title h4 {
+    color: var(--white, #FFF);
+    font-family: Rubik;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 21px 0 15px;
+    transition: .5s;
+}
+
+.faq-single-box:hover .faq-title h4{
+    color: #F60;
+}
+
+.faq-title span {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.faq-title span i {
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    display: inline-block;
+    background: #F60;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+/*==================================================
+ <-- Euildint Work Process Area Css-->
+===================================================*/
+
+.work-process-area {
+    padding: 18px 0 115px;
+}
+
+.work-process-single-box {
+    text-align: center;
+    padding: 0px 57px 0;
+    position: relative;
+}
+
+.work-process-single-box::before {
+    position: absolute;
+    content: "";
+    background: url(../images/resource/work-shape.png);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    top: -60px;
+    left: 52%;
+}
+
+.work-process-single-box.work::before {
+    display: none;
+}
+
+.work-process-thumb {
+    position: relative;
+}
+
+.work-process-shape {
+    position: absolute;
+    top: -33px;
+}
+
+.work-process-number {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.work-process-number h4 {
+    background: #18191D;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.work-process-number h4::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #F60;
+    transform: scale(0);
+    z-index: -1;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.work-process-single-box:hover .work-process-number h4::before {
+    transform: scale(1.1);
+} 
+
+.work-process-thumb img {
+    transition: .5s;
+  }
+
+.work-process-single-box:hover .work-process-thumb img {
+    transform: scale(1.1);
+  } 
+
+.work-process-content {
+    margin-top: 76px;
+}
+
+.work-process-content h4 a {
+    padding: 35px 0 20px;
+    color: var(--black, #18191D);
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.work-process-single-box:hover .work-process-content h4 a  {
+    color: #F60;
+  } 
+  
+.work-process-content p {
+    color: var(--secondery, #666);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    margin: 17px 0 0;
+}
+
+
+/*==================================================
+ <-- Euildint Call Do Action Style Two  Area Css-->
+===================================================*/
+
+.call-do-action-area.style-two {
+    background: url(../images/resource/call-do-2.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.single-video.style-three.text-center {
+    transform: translateY(0);
+    top: 20px;
+}
+
+.call-do-title.style-two h2 {
+    text-align: left;
+}
+
+
+/*==================================================
+ <-- Euildint Testimonial Style Two  Area Css-->
+===================================================*/
+
+.testimonial-area.style-two {
+    background: #fff;
+    padding: 113px 0 120px;
+}
+
+.testi-itmes-box {
+    border: 1px solid #ECECEC;
+    position: relative;
+    padding: 0 17px 52px;
+    position: relative;
+}
+
+.testi-itmes-box::before {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 25px;
+    top: -25px;
+    right: 27px;
+    background: #808187;
+    clip-path: polygon(100% 100%, 100% 100%, 0% 100%, 0% 2%);
+}
+
+.testi-itmes-icon {
+    position: absolute;
+    right: 43px;
+    top: -24px;
+    width: 76px;
+    height: 76px;
+    background: #18191D;
+    line-height: 86px;
+    text-align: center;
+}
+
+.testi-itmes-icon i {
+    font-size: 26px;
+    color: #fff;
+}
+
+.testi-items-discription {
+    margin: 95px 0 40px;
+}
+
+.testi-items-content {
+    background: #F6F6F6;
+    width: 408px;
+    height: 90px;
+    padding: 4px 14px 0;
+    border-radius: 3px 0px 3px 3px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.testi-items-content::before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 15px;
+    top: -15px;
+    right: 0;
+    background: #CDCDCD;
+    clip-path: polygon(100% 99%, 100% 95%, 0% 100%, 0% 0%);
+}
+
+.testi-items-thumb {
+    float: left;
+    margin-top: 8px;
+    margin-right: 20px;
+}
+
+.testi-items-thumb img{
+    border-radius: 100%;
+}
+
+.testi-items-title h4 {
+    color: #18191D;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.testi-rating i {
+    color: #F60;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+
+
+/*===========================================================================================
+            /*===============================================================
+                            <-- Euildint Home Page Three Css-->
+            =================================================================*/
+/*===========================================================================================*/
+
+
+/*===============================================================
+    <-- Euildint Breatcome Area Css-->
+=================================================================*/
+
+.breatcome-area {
+    background: url(../images/resource/breatcome-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 154px 0;
+}
+
+.breatcome-content {
+    position: relative;
+    top: 52px;
+}
+
+.breatcome-title h1 {
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+
+.bratcome-text {
+    position: absolute;
+    right: 0;
+    bottom: -119px;
+    background: #FFF;
+    padding: 15px 19px;
+}
+
+.bratcome-text ul {
+    list-style: none;
+}
+
+.bratcome-text ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: #F60;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.bratcome-text ul li a {
+    display: inline-block;
+    color: #F60;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    transition: .5s;
+}
+
+.bratcome-text ul li a::before {
+    position: absolute;
+    content: "/";
+    left: 56px;
+}
+
+
+/*==================================================
+ <-- Euildint About Inner Page Css-->
+===================================================*/
+
+.about-area.inner-page {
+    padding: 120px 0 194px;
+}
+
+/* team area */
+
+.team-area.inner-page {
+    padding: 111px 0 235px;
+}
+
+/* testimonial area */
+
+.testimonial-area.style-two.inner-page {
+    padding: 18px 0 121px;
+}
+
+
+/*==================================================
+ <-- Euildint Service Detials  Inner Page Css-->
+===================================================*/
+
+.service-details-area {
+    padding: 120px 0 100px;
+}
+
+
+.service-details-content h4 {
+    margin: 28px 0 20px;
+}
+
+.service-details-content h4 a {
+    color: #18191D;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.service-details-content h4 a:hover{
+    color: #F60;
+}
+
+/* widget search box */
+
+.widget_search.box {
+    padding: 29px 22px 30px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background: #F5F5F5;
+}
+
+.widget_search form {
+    position: relative;
+}
+
+.widget_search input {
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    color: #606060;
+    font-weight: 400;
+    border: 1px solid #F60;
+}
+
+.widget_search input::placeholder {
+    color: #F60;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button.icons {
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    padding: 1px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    background: #F60;
+    border-radius: 0 3px 3px 0;
+}
+
+/* widget catagories box */
+
+.widget-categories-box {
+    padding: 29px 30px 40px;
+    margin-bottom: 30px;
+    background: #F8F8F8;
+}
+
+.widget-catagories-title h4 {
+    color: #18191D;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.widget-catagories-title h4::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 58px;
+    background: #F60;
+    left: 0;
+    bottom: -10px;
+}
+
+.widget-categories-menu ul li {
+    list-style: none;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 17px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.widget-categories-menu ul li::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.5s linear 0s;
+    background-color: #F60;
+    content: "";
+    z-index: -1;
+}
+
+.widget-categories-menu ul li:hover::after {
+    width: 100%;
+}
+
+.widget-categories-menu ul li a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    color: #18191D;
+    font-size: 17px;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.widget-categories-menu ul li:hover a {
+    color: #fff;
+}
+
+.widget-categories-menu ul li a span {
+    float: right;
+}
+
+/* widget tag */
+
+.widget-tags a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 13px;
+    background: #fff;
+    border-radius: 3px;
+    color: #102039;
+    font-size: 15px;
+    font-style: normal;
+    margin: 11px 5px;
+    font-weight: 400;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+
+.widget-tags a:hover {
+    color: #fff;
+}
+
+.widget-tags a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: 0px;
+    height: 102%;
+    width: 0%;
+    right: 0;
+    margin: auto;
+    background: #F60;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.widget-tags a:hover:before {
+    width: 104%;
+}
+
+
+/*==================================================
+ <-- Euildint Blog Standard  Inner Page Css-->
+===================================================*/
+
+.blog-standard-area {
+    padding: 120px 0 120px;
+}
+
+/* blog quote css */
+
+.blog-quote-box {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.10);
+    padding: 42px 40px 37px;
+}
+
+.blog-quote-conent i {
+    font-size: 30px;
+    color: #F60;
+}
+
+.blog-quote-conent p {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0 15px;
+}
+
+.blog-quote-conent h4 {
+    color: #F60;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 50px;
+}
+
+.blog-quote-conent h4::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 40px;
+    background: #F60;
+    top: 14px;
+    left: -50px;
+}
+
+
+/* blog standard box css */
+
+.blog-standard-thumb {
+    position: relative;
+}
+
+.blog-single-video {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.blog-video-icon a {
+    height: 90px;
+    width: 90px;
+    background: #fff;
+    color: #F60;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    line-height: 94px;
+    border-radius: 100%;
+    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-blue 1s linear infinite;
+    -webkit-transition: .5s;
+}
+
+.blog-standard-meta {
+    margin: 30px 0 24px;
+} 
+
+.blog-standard-meta span {
+    color: #747474;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 30px;
+    position: relative;
+    transition: .5s;
+}
+
+.blog-standard-meta span:hover{
+    color: #F60;
+}
+
+.blog-standard-meta span::before {
+    position: absolute;
+    content: "/";
+    right: -20px;
+}
+
+.blog-standard-meta span.meta::before {
+    display: none;
+}
+
+.blog-standard-content h4 a {
+    color: #18191D;
+    font-size: 35px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.blog-standard-content h4 a:hover{
+    color: #F60;
+}
+
+.blog-standard-content p {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0 30px;
+}
+
+
+/* blog standard owl carousel */
+
+.blog-standard-area .owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.blog-standard-area .owl-next {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-standard-area .owl-prev i {
+    background: inherit;
+    font-size: 70px;
+}
+
+.blog-standard-area .owl-prev i::after{
+    display: none;
+}
+
+.blog-standard-area .owl-next i {
+    background: inherit;
+    font-size: 70px;
+}
+
+.blog-standard-area .owl-next i::after{
+    display: none;
+}
+
+/* pagination css */
+
+.as-pagination {
+    margin-top: 18px;
+}
+
+.as-pagination ul {
+    list-style: none;
+}
+
+.as-pagination ul li {
+    display: inline-block;
+}
+
+.as-pagination ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    border:  1px solid #C8C8C8;;
+    height: 41px;
+    width: 41px;
+    line-height: 41px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 5px;
+    transition: .5s;
+    text-decoration: none;
+    position: relative;
+    transition: .5s;
+}
+
+.as-pagination ul li a:hover {
+    color: #ffffff;
+}
+
+.as-pagination ul li a::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F60;
+    transform: scale(0);
+    border-radius:50%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.as-pagination ul li a:hover::before {
+    transform: scale(1);
+}
+
+/* recent post css */
+
+.recent-widget-thumb {
+    float: left;
+    margin-right: 22px;
+}
+
+.recent-widget-thumb img {
+    border-radius: 50%;
+}
+
+.recent-widget-meta span {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 30px;
+}
+
+.recent-widget-meta span i {
+    margin-right: 5px;
+    color: #F60;
+}
+
+.recent-widget-title h4 a {
+    color: #18191D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.recent-widget-title h4 a:hover{
+    color: #F60;
+}
+
+
+/*==================================================
+ <-- Euildint Blog Details Inner Page Css-->
+===================================================*/
+
+.blog-details-area {
+    padding: 122px 0 120px;
+}
+
+.blog-details-thumb img {
+    width: 100%;
+}
+
+.blog-detaile-title h4 {
+    margin: 35px 0 33px;
+}
+
+.blog-detaile-title h4 a {
+    color: #18191D;
+    font-size: 35px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.blog-details-meta {
+    margin-bottom: 26px;
+}
+
+.blog-details-meta span {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.blog-details-meta span i{
+    color: #F60;
+    margin-right: 5px;
+}
+
+.blog-details-discription p {
+    color: #747474;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* blog list css */
+
+.blog-details-list ul li {
+    list-style: none;
+    margin-bottom: 23px;
+    color: #18191D;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.blog-details-list ul li:hover{
+    color: #F60;
+}
+
+.blog-details-list ul li.active {
+    color: #F60;
+}
+
+.blog-details-list ul li i {
+    font-size: 22px;
+    padding-right: 8px;
+}
+
+
+.row.line {
+    border-top: 1px solid rgba(227, 227, 227, 1);
+    border-bottom: 1px solid rgba(227, 227, 227, 1);
+    padding: 36px 0 37px;
+}
+
+.blog-details-tag h6 {
+    color: #18191D;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.blog-details-tag a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #F8F8F8;
+    border-radius: 3px;
+    color: #102039;
+    font-size: 15px;
+    font-style: normal;
+    margin-right: 15px;
+    font-weight: 500;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+
+.blog-details-tag a:hover{
+    color: #FFf;
+}
+
+.blog-details-tag a:before {
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: 0px;
+    height: 102%;
+    width: 0%;
+    right: 0;
+    margin: auto;
+    background: #F60;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.blog-details-tag a:hover::before{
+    width: 100%;
+}
+
+.ba-blog-details-social-icons {
+    text-align: right;
+}
+
+.ba-blog-details-social-icons.two {
+    text-align: left;
+}
+
+.ba-blog-details-social-icons a {
+    margin-left: 6px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #F60;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: #F60;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.ba-blog-details-social-icons a:hover{
+    color: #FFF;
+}
+
+.ba-blog-details-social-icons a::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F60;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -1;
+    transition: .5s;
+}
+
+.ba-blog-details-social-icons a:hover::before{
+    transform: scale(1.1);
+}
+
+/* blog team css */
+
+.blog-details-team-item {
+    border-bottom: 1px solid rgba(227, 227, 227, 1);
+    padding: 0px 0px 42px;
+}
+
+.blog-team-thumb {
+    float: left;
+    margin-right: 42px;
+}
+
+.blog-team-content h4 a {
+    color: #18191D;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.blog-team-content p {
+    margin: 18px 0 16px;
+}
+
+/* blog items css */
+
+.blog-details-item {
+    background: #F8F8F8;
+    padding: 57px 30px 30px;
+}
+
+.blog-details-item.two {
+    text-align: right;
+}
+
+.blog-item-thumb {
+    float: left;
+    margin-right: 24px;
+    margin-top: -21px;
+}
+
+.blog-item-thumb.two {
+    float: right;
+    margin-left: 24px;
+}
+
+.blog-item-content h4 a {
+    color: #18191D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.blog-details-area .owl-prev {
+    position: absolute;
+    top: 21px;
+    left: 138px;
+}
+
+.blog-details-area .owl-prev i {
+    background: none;
+    color: #F60;
+    margin-right: -10px;
+    font-size: 16px;
+}
+
+.blog-details-area .owl-prev i::after{
+    display: none;
+}
+
+.blog-details-area .owl-next {
+    position: absolute;
+    top: 24px;
+    right: 150px;
+}
+
+.blog-details-area .owl-next i {
+    background: none;
+    color: #F60;
+    margin-left: -10px;
+    font-size: 16px;
+}
+
+.blog-details-area .owl-next i::after{
+    display: none;
+}
+
+/* blog details comment */
+
+.blog-details-comment h5 {
+    color: #18191D;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.blog-details-comment h5::after {
+    position: absolute;
+    bottom: -10px;
+    width: 70px;
+    height: 3px;
+    background: #F60;
+    content: "";
+    left: 0;
+}
+
+.blog-comment-list ul li {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.blog-comment-box {
+    position: relative;
+}
+
+.blog-comment-box::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #E4E4E4;
+    bottom: -30px;
+}
+
+.blog-comment-box.inner {
+    margin-left: 50px;
+}
+
+.blog-comment-box.inner::before{
+    display: none;
+}
+
+.blog-comment-thumb {
+    float: left;
+    margin-right: 24px;
+    margin-top: 12px;
+}
+
+.blog-comment-thumb img {
+    border-radius: 4px;
+}
+
+.blog-comment-list .title {
+    margin-bottom: 5px;
+    margin-left: -12px;
+}
+
+.blog-comment-list h6.title {
+    color: #18191D;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.blog-comment-list span.date {
+    margin-left: -13px;
+}
+
+.content-main p {
+    color: #747474;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0 0;
+}
+
+.text-sm-end a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 13px;
+    background: #EFEFEF;
+    border-radius: 3px;
+    color: #102039;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+
+.text-sm-end a:hover{
+    color: #fff;
+}
+
+.text-sm-end a::before{
+    position: absolute;
+    content: "";
+    left: -2px;
+    top: 0px;
+    height: 102%;
+    width: 0%;
+    right: 0;
+    margin: auto;
+    background: #F60;
+    z-index: -1;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.text-sm-end a:hover::before{
+    width: 100%;
+}
+
+/* blog contact box */
+
+.blog-contact-title h4 {
+    color: #18191D;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 54px;
+    position: relative;
+}
+
+.blog-contact-title h4::before{
+    position: absolute;
+    bottom: -10px;
+    width: 70px;
+    height: 3px;
+    background: #F60;
+    content: "";
+    left: 0;
+}
+
+/* contact form */
+
+.form-box input {
+    width: 100%;
+    height: 55px;
+    background: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 0 17px;
+    margin-bottom: 25px;
+}
+
+.form-box input::placeholder {
+    color: #B1B1B1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-box textarea {
+    width: 100%;
+    height:145px;
+    background: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 5px 17px;
+    margin-bottom: 25px;
+}
+
+.form-box textarea::placeholder {
+    color: #B1B1B1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-box-button button {
+    width: 210px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #F60;
+    border: 0;
+    outline: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+
+.form-box-button button::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0.0, 1);
+    opacity: 0;
+    border-radius: 3px;
+    z-index: -1;
+    transition: .5s;
+}
+
+.form-box-button button:hover::before {
+    background: #18191D;
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+.form-box-button.inner {
+    text-align: center;
+}
+
+/*==================================================
+ <-- Euildint project Area inner page Css-->
+===================================================*/
+
+.project-area.inner-page {
+    padding: 110px 0 70px;
+}
+
+/*==================================================
+ <-- Euildint project Details Area inner page Css-->
+===================================================*/
+
+.project-details-area {
+    padding: 120px 0 120px;
+}
+
+.projetct-details-image {
+    margin-bottom: 30px;
+}
+
+.project-details-title h5 {
+    color: #18191D;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.project-detials-discriopton p {
+    color: #747474;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 17px 0 25px;
+}
+
+.project-details-area .info li {
+    display: flex;
+    padding: 6px 0;
+}
+
+.project-details-area .info li h6 {
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 30%;
+}
+
+.project-details-area .info li h6 span {
+    margin-left: 50px;
+}
+
+.project-details-area .info li p {
+    position: relative;
+    top: 10px;
+}
+
+.project-rating {
+    margin-top: 11px;
+    margin-bottom: 39px;
+}
+
+.project-rating i {
+    margin: 12px 5px 30px;
+    color: #F60;
+}
+
+.project-details-area .title h4 {
+    font-size: 29px;
+    line-height: 44px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.project-details-area .desc-list {
+    padding-top: 20px;
+}
+
+.project-details-area .desc-list li {
+    position: relative;
+    padding: 5px 0 5px 30px;
+    list-style: none;
+}
+
+.project-details-area .desc-list li:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #F60;
+}
+
+
+/*==================================================
+ <-- Euildint Team Details Innerp Page Css-->
+===================================================*/
+
+.team-details-area {
+    padding: 118px 0 118px;
+}
+
+.ba-team-details-author-skill-area {
+    margin-bottom: 30px;
+}
+
+.team-details-author-img img {
+    width: 100%;
+}
+
+.team-details-author-name {
+    margin-bottom: 14px;
+}
+
+.team-details-author-name h4 {
+    font-size: 24px;
+    line-height: 60px;
+    color: #292930;
+    font-weight: 600;
+}
+
+.team-details-author-name span {
+    font-size: 16px;
+    line-height: 36px;
+    color: #434141;
+    font-weight: 400;
+}
+
+.team-details-author-experience ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.team-details-author-experience ul li .label {
+    min-width: 152px;
+    float: left;
+    font-size: 16px;
+    color: #434141;
+    font-weight: 500;
+}
+
+.team-details-author-experience ul li .value {
+    overflow: hidden;
+    display: block;
+}
+
+.team-details-author-experience ul li .value {
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #434141;
+}
+
+.team-card-box-social a {
+    display: inline-block;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    background: #f3f3f3;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.team-card-box-social a::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F60;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s;
+    z-index: -1;
+}
+
+.team-card-box-social a:hover::before{
+    transform: scale(1);
+}
+
+.team-card-box-social a i{
+    transition: .5s;
+}
+
+.team-card-box-social a:hover i{
+    color: #ffffff;
+}
+
+/* progressbar css */
+
+.process-ber-plugin {
+    padding: 36px 0 0;
+}
+
+span.process-bar {
+    font-size: 16px;
+    color: #1c1632;
+    font-weight: 500;
+    position: relative;
+}
+
+.barfiller {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 11px;
+    border-radius: 3px;
+    background-color: #c9ccd2;
+}
+
+.barfiller .fill {
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 100%;
+    z-index: 1;
+}
+
+.barfiller .tipWrap {
+    display: none;
+}
+
+.barfiller .tip {
+    font-size: 16px;
+    color: #1c1632;
+    font-weight: 500;
+    top: -37px;
+    padding: 1px 6px;
+    left: 0px;
+    position: absolute;
+}
+
+.stat-bar:nth-of-type(1) .stat-bar-rating {
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+
+span.fill {
+    background: #F60!important;
+    border-radius: 3px;
+}
+
+.team-details-title h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+/* form box css */
+
+.contact-title.inner.team h4::before {
+    display: none;
+}
+
+.contact-title.inner.team h4 {
+    border-bottom: 1px solid  #dddddd;
+    padding: 0px 0 13px;
+    margin-bottom: 28px;
+}
+
+.form-box.team input {
+    border: 1px solid #dddddd;
+    margin-bottom: 16px;
+}
+
+.form-box.team textarea {
+    border: 1px solid #dddddd;
+    height: 135px;
+}
+
+.form-box-button.team button:hover::before {
+    background: #1c1632;
+}
+
+/*==================================================
+ <-- Euildint Pricing Innerp Page Css-->
+===================================================*/
+
+.pricing-area.inner-page {
+    padding: 112px 0 120px;
+    background: none;
+}
+
+/*==================================================
+ <-- Euildint Contact Us Innerp Page Css-->
+===================================================*/
+
+.contact-us-area {
+    padding: 118px 0 0;
+    margin-bottom: -250px;
+    position: relative;
+}
+
+.contact-single-box {
+    text-align: center;
+    position: relative;
+}
+
+.contact-single-box::before{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 201px;
+    background: rgba(205, 205, 205, 0.45);
+    right: 0;
+}
+
+.contact-single-box.two::before {
+    display: none;
+}
+
+.contact-icon i {
+    font-size: 40px;
+    color: #F60;
+}
+
+.contact-content h4 {
+    color: #102039;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 14px 0 13px;
+}
+
+.contact-content span {
+    color: #747474;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+}
+
+
+.row.contact {
+    background: #FFF;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    padding: 72px 95px 87px;
+}
+
+.contact-title {
+    margin-bottom: 63px;
+}
+
+.contact-title h2 {
+    color: #102039;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+}
+
+
+
+
+.sidebar-textwidget .contact-info ul {
+    padding: 0;
+}
+
+.sidebar-group .widget-heading {
+    position: absolute;
+    top: 55px;
+    right: 32px;
+}
+
+.sidebar-group .sidebar-widget {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+    z-index: 999999;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: #18191D;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+
+.sidebar-group.isActive .sidebar-widget {
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+.sidebar-textwidget {
+    padding: 40px 32px;
+}
+
+.close-side-widget i {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+}
+
+.sidebar-widget-container {
+    position: relative;
+    top: 150px;
+    opacity: 0;
+    visibility: hidden;
+    /*-webkit-transition: all 0.3s ease-in 0.3s;
+    -o-transition: all 0.3s ease-in 0.3s;
+    transition: all 0.3s ease-in 0.3s;*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sidebar-group.isActive .sidebar-widget-container {
+    top: 0px;
+    opacity: 1;
+    visibility: visible;
+    /*-webkit-transition: all 1s ease-out 1.2s;
+    -o-transition: all 1s ease-out 1.2s;
+    transition: all 1s ease-out 1.2s;*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.sidebar-logo {
+    margin: 0 0 50px;
+}
+
+.sidebar-textwidget .sidebar-logo a img {
+    width: 65%;
+}
+
+.sidebar-group .about-box h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sidebar-group .about-box p {
+    display: inline-block;
+    color: #fff;
+    padding: 15px 0 0;
+}
+
+.sidebar-group .contact-info{
+	margin-top: 20px;
+}
+
+.sidebar-group .contact-info h2 {
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.sidebar-group ul.list-style-one li {
+    display: block;
+    list-style: none;
+    color: #fff;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.sidebar-group ul.list-style-one li i {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f60;
+    margin: 0 10px 0 0px;
+}
+
+.sidebar-group ul.social-box {
+    margin: 58px 0 0;
+    padding: 0;
+}
+
+.sidebar-group ul.social-box li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 6px 0 0;
+}
+
+.sidebar-group ul.social-box li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: .5s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.sidebar-group ul.social-box li a:hover {
+    background: var(--primary-color);
+    color: #F60;
+}
+
+
+
+
+/*** 
+====================================================================
+    Search Popup
+====================================================================
+***/
+.search-popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 99999;
+    margin-top: -540px;
+    transform: translateY(-100%);
+    background-color: rgba(0,0,0,0.90);
+    -webkit-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition: all 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition: all 1500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+}
+.search-popup{
+    width: 100%;
+}
+.search-active .search-popup{
+    transform: translateY(0%);
+    margin-top: 0;
+}
+.search-popup .close-search {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -200px;
+    border-radius: 50%;
+    text-align: center;
+    background-color:#e63a27;
+    width: 70px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-bottom: 3px solid #ffffff;
+    -webkit-transition: all 500ms ease;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.search-active .search-popup .close-search{
+    visibility: visible;
+    opacity: 1;
+    top: 50%;
+    -webkit-transition-delay: 1500ms;
+    -moz-transition-delay: 1500ms;
+    -ms-transition-delay: 1500ms;
+    -o-transition-delay: 1500ms;
+    transition-delay: 1500ms;
+}
+.search-popup form{
+    position: absolute;
+    max-width: 700px;
+    top: 50%;
+    left: 15px;
+    right: 15px;
+    margin:-35px auto 0;
+    transform: scaleX(0);
+    transform-origin: center;
+    background-color: #111111;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.search-active .search-popup form{
+    transform: scaleX(1);
+    -webkit-transition-delay: 1200ms;
+    -moz-transition-delay: 1200ms;
+    -ms-transition-delay: 1200ms;
+    -o-transition-delay: 1200ms;
+    transition-delay: 1200ms;
+}
+.search-popup .form-group{
+    position:relative;
+    margin:0px; 
+    overflow: hidden;
+}
+.search-popup .form-group input[type="text"],
+.search-popup .form-group input[type="search"]{
+    position:relative;
+    display:block;
+    font-size:18px;
+    line-height: 50px;
+    color:#000000;
+    height:70px;
+    width:100%;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    font-weight:500;
+    text-transform:capitalize;
+}
+.search-popup .form-group input[type="submit"], .search-popup .form-group button {
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    height: 70px;
+    line-height: 70px;
+    background: transparent;
+    text-align: center;
+    font-size: 24px;
+    color: #e63a27;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transition: all 500ms ease;
+    border: none;
+}
+.search-popup .form-group input[type="submit"]:hover,
+.search-popup .form-group button:hover{
+    color: #000000;
+}
+
+.search-popup input::placeholder,
+.search-popup textarea::placeholder{
+    color:#000000;
+}
+.search-popup .close-search.style-two{
+    position: absolute;
+    right: 25px;
+    left: auto;
+    color:#ffffff;
+    width:auto;
+    height:auto;
+    top:25px;
+    margin:0px;
+    border:none;
+    background:none !important;
+    box-shadow:none !important;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+.flaticon-multiply:before {
+    content: inherit;
+}
+button.close-search i {
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+}
+span.flaticon-multiply i {
+    display: inline-block;
+    color: #e63a27;
+}
+
+
+
+
+/*
+<!-- ============================================================== -->
+<!-- Euildint Scrollup Section -->
+<!-- ============================================================== -->*/
+.scroll-area {
+    position: relative;
+    z-index: 999;
+}
+
+.scroll-area .go-top {
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 30px;
+    color: #ffffff;
+    background-image: -moz-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    background-image: -webkit-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    z-index: 9999;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    line-height: 42px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.9s ease-out 0s;
+    -moz-transition: all 0.9s ease-out 0s;
+    transition: all 0.9s ease-out 0s;
+    border-radius: 10px;
+}
+
+.scroll-area .go-top i {
+    position: absolute;
+    top: 50%;
+    left: -4px;
+    right: 0;
+    margin: 0 auto;
+    font-size: 15px;
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+}
+
+.scroll-area .go-top i:last-child {
+    opacity: 0;
+    visibility: hidden;
+    top: 60%;
+}
+
+.scroll-area .go-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to right, #00132b 0%, #00132b 100%);
+    background-image: -ms-linear-gradient(0deg, #d1651a 0%, #c1282a 100%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease-out 0s;
+    -moz-transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
+    border-radius: 100%;
+}
+
+.scroll-area .go-top:focus,
+.scroll-area .go-top:hover {
+    color: #fff;
+}
+
+.scroll-area .go-top:focus::before,
+.scroll-area .go-top:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-area .go-top:focus i:first-child,
+.scroll-area .go-top:hover i:first-child {
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.scroll-area .go-top:focus i:last-child,
+.scroll-area .go-top:hover i:last-child {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+}
+
+.scroll-area .go-top.active {
+    top: 95%;
+    -webkit-transform: translateY(-98%);
+    -moz-transform: translateY(-98%);
+    transform: translateY(-98%);
+    opacity: 1;
+    visibility: visible;
+    border-radius: 0;
+    right: 30px;
+    border-radius: 100%;
+}
+
+.top-wrap {
+    position: relative;
+}
+
+.top-wrap .go-top-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    top: 3px;
+    z-index: 1;
+    background: #F60;
+}
+
+.top-wrap .go-top-button i {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 4px;
+    color: #fff;
+}
+
+.top-wrap .go-top-button::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 45px;
+    height: 45px;
+    -webkit-animation: ripple 1.6s ease-out infinite;
+    -moz-animation: ripple 1.6s ease-out infinite;
+    animation: ripple 1.6s ease-out infinite;
+    opacity: 0;
+    background-image: -moz-linear-gradient(0deg, #69DDCC 0%, #69DDCC 100%);
+    background-image: -webkit-linear-gradient(0deg, #F60 0%, #F60 100%);
+    border-radius: 100%;
+}
+
+.top-wrap .go-top-button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+@-webkit-keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0)
+    }
+}
+
+@keyframes ripple-blue {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255,255,255, 0.3), 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0);
+        box-shadow: 0 0 0 10px rgba(255,255,255, 0.3), 0 0 0 20px rgba(255,255,255, 0.3), 0 0 0 30px rgba(255,255,255, 0)
+    }
+}
+
+
+
+/*===========================
+<-- Euildint Loader Css -->
+=============================*/
+.loader-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.8s 1s ease;
+    z-index: 666;
+}
+
+.loader {
+    position: relative;
+    display: block;
+    z-index: 201;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50%;
+    transition: all 1s 1s ease;
+    border: 3px solid transparent;
+    border-top-color: #F60;
+    -webkit-animation: spin 1.5s linear infinite;
+    -moz-animation: spin 1.5s linear infinite;
+    -o-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+.loader:before {
+    position: absolute;
+    content: '';
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-left-color: #1c1632;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loader:after {
+    position: absolute;
+    content: '';
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: #fff;
+    -webkit-animation: spin 2.5s linear infinite;
+    -moz-animation: spin 2.5s linear infinite;
+    -o-animation: spin 2.5s linear infinite;
+    animation: spin 2.5s linear infinite;
+}
+
+/*/ Here the Magic /*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loader-wrapper .loder-section {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #111;
+    z-index: 2;
+}
+
+.loader-wrapper .loder-section.left-section {
+    left: 0;
+    transition: 1s 1.4s ease;
+}
+
+.loader-wrapper .loder-section.right-section {
+    right: 0;
+    transition: 1s 1.4s ease;
+}
+
+/*/ When page loaded /*/
+.loaded .loder-section.left-section {
+    left: -100%;
+}
+
+.loaded .loder-section.right-section {
+    right: -100%;
+}
+
+.loaded .loader-wrapper {
+    visibility: hidden;
+}
+
+.loaded .loader {
+    top: -100%;
+    opacity: 0;
+} 
+
+
+
+
+
